@@ -94,3 +94,24 @@ https://www-iso-org.translate.goog/standard/iso-iec-27000-family?_x_tr_sl=en&_x_
    * É um dos métodos usados que ***fornece uma medida qualitativa de gravidade*** e está sincronizado com os registros de CVE da MITRE Corporation https://nvd.nist.gov/vuln-metrics/cvss
 
 #### Atenção! O CVSS não é um critério de risco.
+
+O **CVE** e **NVD** são patrocinados pela **Agência de Segurança Cibernética e de Infraestrutura (CISA)** e disponíveis ao público de forma gratuita.
+A CISA também desenvolveu a sua própria metodologia de análise de vulnerabilidades, chamada de **SSVC (Stakeholder-Specific Vulnerability Categorization)**
+que leva em conta o status de exploração de uma vulnerabilidade, os impactos à segurança e a prevalência do produto afetado em um determinado sistema
+https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc
+
+5. Reporte as vulnerabilidades descobertas junto aos envolvidos e partes interessadas para que tenham visibilidade e ciência dessas vulnerabilidades, assim como das análises realizadas.
+6. Faça a correção das vulnerabilidades identificadas nos ativos conforme a priorização e a brevidade necessárias. Caso a correção não seja possível dentro do prazo recomendável e/ou planejado, procure implementar medidas de segurança alternativas que possam ajudar a reduzir os riscos de exploração dessas vulnerabilidades.  Não deixe de verificar posteriormente se as vulnerabilidades foram realmente corrigidas.
+7. Procure estabelecer indicadores e métricas que possam ajudar no acompanhamento e no entendimento da maturidade da organização nesse processo.
+
+ ***Atenção!** O processo de gestão de vulnerabilidades é contínuo, então não deixe de estipular a rotina de monitoração periódica dos seus ativos. Novas vulnerabilidades podem aparecer.*
+
+
+Gerenciamento de Ameaças
+https://www.gartner.com/en/articles/how-to-manage-cybersecurity-threats-not-episodes
+
+*“Até 2026, as organizações que priorizarem os seus investimentos em segurança com base em um programa de Gerenciamento de Exposição contínua terão 3x menos chances de sofrer uma violação” (Gartner, 2023, tradução nossa).*
+
+
+## 1.2.1. Quais as Medidas de Segurança?
+
