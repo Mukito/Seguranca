@@ -115,3 +115,9 @@ https://www.gartner.com/en/articles/how-to-manage-cybersecurity-threats-not-epis
 
 ## 1.2.1. Quais as Medidas de Segurança?
 
+* Realizar varreduras automatizadas de vulnerabilidade em ativos corporativos expostos interna e externamente,
+  de forma autenticada e não autenticada, conforme medidas de segurança 7.5 e 7.6 do CIS Controls.
+  Aqui o CIS já recomenda o uso de ferramentas de varredura de vulnerabilidade compatíveis com o SCAP (Security Content Automation Protocol) buscando,
+  por exemplo, a automatização, padronização, simplificação e uma melhor visibilidade.  Conforme também mencionado no Controle 2,
+  o SCAP não é uma ferramenta, e sim um protocolo que pode ser utilizado livremente pelos fabricantes de ferramentas para verificação
+  de conformidades de segurança. A própria ferramenta CIS-CAT Lite, disponibilizada pelo CIS, é compatível com o SCAP.
