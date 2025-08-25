@@ -121,3 +121,18 @@ https://www.gartner.com/en/articles/how-to-manage-cybersecurity-threats-not-epis
   por exemplo, a automatização, padronização, simplificação e uma melhor visibilidade.  Conforme também mencionado no Controle 2,
   o SCAP não é uma ferramenta, e sim um protocolo que pode ser utilizado livremente pelos fabricantes de ferramentas para verificação
   de conformidades de segurança. A própria ferramenta CIS-CAT Lite, disponibilizada pelo CIS, é compatível com o SCAP.
+
+-----------------------------------------------------------------
+
+** Atenção!** Importante notar que o CIS sinaliza a necessidade de varreduras de vulnerabilidade em ativos expostos na internet e/ou com interfaces externas expostas (com possibilidade de acessos por terceiros) e nos ativos internos da organização. Ativos expostos externamente são mais suscetíveis aos acessos maliciosos e aos ataques cibernéticos devido ao campo de disponibilidade existente na internet.  Adicionalmente, nem todos os serviços e sistemas necessitam de varreduras autenticadas, sendo esta uma decisão da organização baseada nos riscos mapeados.
+
+-----------------------------------------------------------------
+
+* Corrigir vulnerabilidades detectadas, conforme medida de segurança 7.7 do CIS Controls V8.
+
+Se descobriu uma vulnerabilidade, acione os envolvidos, analise o contexto, faça o tratamento que for necessário para a correção ou redução dos riscos de exploração e comunique os resultados. Importante reforçar que a correção de uma vulnerabilidade pode ocasionar em mudanças que impactem os processos de negócios, portanto, sempre proceda de forma planejada e documentada. Ademais, o próprio patch também pode estar com falhas.
+
+
+* Executar a gestão automatizada de patches do sistema operacional e de aplicações, conforme medidas de segurança 7.3 e 7.4 do CIS Controls V8.
+
+A gestão automatizada de patches ajuda as organizações na redução da carga de trabalho e das falhas humanas, simplificando, padronizando e agilizando o processo de identificação, priorização e correção de vulnerabilidades. É possível, dependendo do segmento da organização, que a automatização seja um requerimento legal. Entretanto, alguns pontos precisam ser avaliados, como:
