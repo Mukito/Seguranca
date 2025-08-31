@@ -11,3 +11,10 @@
 * Explicar como as tecnologias de segurança afetam o monitoramento de segurança.
 * Use diferentes tipos de logs e registros para armazenar informações sobre hosts e a rede.
 * Explicar o processo de avaliação de alertas.
+
+
+### Baixe e Instale o Packet Tracer
+
+https://www.netacad.com/resources/lab-downloads
+
+
