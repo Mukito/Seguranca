@@ -37,3 +37,13 @@
 ----------------------------------------------------------------------------
 
 
+## Exploração dos Modos Lógico e Físico
+
+### objetivos:
+
+* Parte 1: Investigar a barra de ferramentas inferior
+* Parte 2: Investigar dispositivos em um armário de fiação
+* Parte 3: Conecte dispositivos finais a dispositivos de rede
+* Parte 4: Instalar um roteador de backup
+* Parte 5: Configurar um nome de host
+* Parte 6: Explore o Resto da Rede
