@@ -143,6 +143,138 @@ a.    Crie um conjunto de instruções passo a passo que ofereça suporte à sua
 Observação: todos os links acima também serão úteis na Parte 4 deste laboratório. Mantenha-os abertos e marque-os como favoritos.
 b.    Inclua todas as informações de que um usuário precisa para configurar ou concluir a tarefa corretamente de acordo com a política de segurança.
 
+----------------------------------------------------------
+# Procedimento Operacional – Senhas & MFA  
+**Organização:** ACME Healthcare  
+**Objetivo:** Implementar a política de segurança de senhas e autenticação multifator (MFA) em todos os sistemas corporativos.  
+**Escopo:** Aplicável a colaboradores, prestadores de serviço, terceiros e todos os sistemas corporativos (EHR/EMR, e-mail, rede, VPN, dispositivos móveis).
+
+---
+
+## 1. Guia do Administrador
+
+### 1.1 Habilitar MFA no Microsoft Entra (Azure AD)
+1. Acesse **Microsoft Entra admin center** como *Conditional Access Administrator*.  
+2. Vá em: `Entra ID → Security → Conditional Access → Policies → New policy`.  
+3. Nomeie como `CA-ReqMFA-AllUsers`.  
+4. **Assignments → Users**: *Include* = All users; *Exclude* = contas de emergência.  
+5. **Target resources**: All cloud apps (ou apps críticos primeiro).  
+6. **Grant**: *Grant access* + **Require MFA**.  
+7. Ative em **Report-only** por 3–7 dias → depois mude para **On**.
+
+---
+
+### 1.2 Bloquear senhas fracas
+1. Vá em `Entra ID → Authentication methods → Password protection`.  
+2. Ative **Custom banned password list** (ex.: "acme", "saude", "medico").  
+3. Defina modo **Enforce**.  
+4. Para AD on-premises: instale **Password Protection Proxy** e configure nos DCs.
+
+---
+
+### 1.3 Configurar Política de Senha no Active Directory (GPO)
+**Caminho:**  
+`GPMC → Domain → Group Policy Objects → Edit → Computer Configuration → Policies → Windows Settings → Security Settings → Account Policies → Password Policy`
+
+**Ajustes:**  
+- Minimum password length = **12**  
+- Complexity requirements = **Enabled**  
+- Enforce password history = **10**  
+- Maximum password age = **90 dias**  
+- Minimum password age = **1 dia**  
+- Store passwords using reversible encryption = **Disabled**
+
+---
+
+### 1.4 Configurar Política de Bloqueio de Conta
+**Caminho:**  
+`… Security Settings → Account Policies → Account Lockout Policy`
+
+**Ajustes:**  
+- Threshold = **5 tentativas**  
+- Duration = **15 min**  
+- Reset counter after = **15 min**  
+
+---
+
+### 1.5 Aplicar MFA em VPN/Wi-Fi e Apps Críticos
+- **VPN:** integrar com Entra MFA (NPS Extension) ou IdP corporativo.  
+- **Wi-Fi:** usar 802.1X/EAP-TLS; desabilitar WEP/WPA antigos.  
+- **Apps críticos (EHR/EMR, e-mail):** federar via Entra/IdP + MFA.
+
+---
+
+### 1.6 Auditoria e Monitoramento
+- Revisar **logs de sign-in e Conditional Access** diariamente (durante rollout) e semanalmente depois.  
+- Gerar relatórios de **Password Protection** e bloqueios.  
+- Arquivar evidências para conformidade com **HIPAA/LGPD**.
+
+---
+
+## 2. Guia do Usuário Final
+
+### 2.1 Alterar senha
+1. Pressione `Ctrl+Alt+Del → Alterar uma senha`.  
+2. Digite senha atual e nova senha (**≥ 12 caracteres, complexidade obrigatória**).  
+3. Faça logoff/login para aplicar.  
+
+**Dica:** use frases-senha (ex.: `Café!Frio_às06h?`).
+
+---
+
+### 2.2 Registrar MFA
+1. Acesse sua **página de Segurança de Informações**.  
+2. Clique em **Adicionar método** → escolha **Aplicativo autenticador** ou **Chave FIDO2**.  
+3. Siga o assistente (escaneie QR code ou insira chave).  
+4. Cadastre **método reserva** (telefone ou códigos de recuperação).  
+
+---
+
+### 2.3 Boas práticas
+- Não reutilizar senha corporativa em sites externos.  
+- Usar **cofre de senhas corporativo**.  
+- Reportar phishing ou incidentes ao **Service Desk**.
+
+---
+
+## 3. Runbook do Service Desk
+
+### 3.1 Reset de senha
+1. Validar identidade do colaborador (2 fatores).  
+2. Executar reset no AD/Entra.  
+3. Marcar **User must change password at next logon**.  
+4. Confirmar registro de MFA ativo.  
+5. Registrar ticket (solicitante, hora, analista, motivo).
+
+### 3.2 Conta bloqueada
+1. Checar logs de tentativas de login.  
+2. Validar se dispositivos antigos ainda usam senha expirada.  
+3. Orientar atualização em e-mail/Outlook, VPN, mobile.  
+4. Desbloquear conta → se recorrente, abrir investigação.
+
+---
+
+## 4. Métricas de Validação
+
+- Cobertura de MFA ≥ **95%**.  
+- Tentativas bloqueadas por **senha proibida** / mês.  
+- Eventos de lockout analisados semanalmente.  
+- Trilhas de auditoria arquivadas para compliance.
+
+---
+
+## 5. Checklist de Conclusão (Admin)
+- [ ] MFA ativado para todos (exceto contas break-glass).  
+- [ ] Password Protection aplicado (cloud e on-prem).  
+- [ ] GPO de senha e lockout configurados.  
+- [ ] Logs revisados e arquivados.  
+- [ ] Comunicação enviada e FAQ publicada.  
+
+---
+
+------------------------------------------------------------
+
+
 ### Parte 4: Desenvolva um plano para disseminar e avaliar políticas
 ### Etapa 1: Crie um plano de implementação e disseminação de política de segurança da informação.
 a.    Documente as informações necessárias para criar um plano de implementação e disseminação de política de segurança de informações.
