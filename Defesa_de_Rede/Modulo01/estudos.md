@@ -92,7 +92,24 @@ sistemas de segurança de conteúdo da Web e de e-mail, serviços de identidade,
 
 Na abordagem de segurança em camadas de defesa profunda, as diferentes camadas trabalham juntas para criar uma arquitetura de segurança na qual a falha de uma salvaguarda não afeta a eficácia das outras salvaguardas.
 
+### Alcachofra da segurança
+Existem duas analogias comuns que são usadas para descrever uma abordagem de defesa em profundidade.
+ - **Cebola de segurança** - Uma analogia comum usada para descrever uma abordagem de defesa em profundidade é chamada de “cebola de segurança”. Como ilustrado na figura, um ator de ameaça teria que descascar as defesas de uma rede camada por camada de uma maneira semelhante a descascar uma cebola. Somente depois de penetrar cada camada, o ator da ameaça alcançaria os dados ou o sistema de destino.
+
+Observação: A Security Onion descrita nesta página é uma forma de visualizar a defesa em profundidade. Isso não deve ser confundido com o conjunto Security Onion de ferramentas de segurança de rede.
+A figura de cebola de segurança mostra uma cebola com várias camadas dentro dela. A cebola é rotulada como ativos. À direita estão palavras e setas apontando para as diferentes camadas: dispositivos reforçados; autenticação, autorização e contabilidade (A A); filtragem de conteúdo; sistemas de prevenção de intrusões (I P S); firewall.
 
 
+  - **Alcachofra de segurança** - os atores da ameaça não precisam mais descascar cada camada. Eles só precisam remover certas “folhas de alcachofra”. O bônus é que cada “folha” da rede pode revelar dados confidenciais que não estão bem protegidos.
 
+### Estratégias de Defesa em Produndidade
+
+**Sobreposição** - A defesa em profundidade não fornecerá um escudo cibernético impenetrável, mas ajudará a empresa a minimizar riscos, mantendo-se um passo à frente dos criminosos virtuais.
+**Limitação** - Uma empresa deve ter as ferramentas e as configurações certas, como permissões de arquivo, para limitar o acesso, bem como as medidas processuais certas, que definem etapas específicas para fazer qualquer coisa que possa afetar a segurança. Por exemplo, um procedimento de limitação que exige que os funcionários sempre consultem documentos confidenciais em uma sala com CCTV garante que eles nunca removam esses documentos das instalações.
+**Diversidade** - Para atingir o objetivo de diversidade nas defesas, as empresas podem usar produtos de segurança de diferentes empresas como diferentes fatores de autenticação, como um cartão de furto de uma empresa e um leitor de impressão digital fabricado por uma empresa diferente, bem como medidas de segurança variadas, como bloqueio de tempo nos armários e supervisão por um membro da equipe de segurança ao desbloqueá-lo.
+
+**Ofuscação** - A ofuscação de informações também pode proteger dados e informações. Uma empresa não deve revelar informações que os criminosos virtuais podem usar para descobrir a versão do sistema operacional em execução em um servidor ou o tipo de equipamento que ele usa
+
+**Simplicidade** - A complexidade não garante, necessariamente, a segurança. Se uma empresa implementar sistemas complexos que são difíceis de entender e de solucionar problemas, o “tiro pode sair pela culatra”. Se os funcionários não entenderem como configurar uma solução complexa corretamente, pode ser tão fácil quando em uma solução mais simples para os criminosos virtuais comprometerem esses sistemas.
+ 
 
