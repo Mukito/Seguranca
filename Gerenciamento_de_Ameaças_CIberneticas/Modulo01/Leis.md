@@ -151,4 +151,30 @@ Você fez uma apresentação completa e informou a equipe de RH da @Apollo sobre
  * Uma **avaliação de impacto da privacidade (PIA)** garante que as informações de identificação pessoal (PII) sejam tratadas corretamente em toda uma empresa.
 
 
+### Há um incidente de segurança cibernética que você se lembra onde a empresa agiu de forma ética ou não? Explique.
+#### exemplo bem marcante:
+
+**🔹 Caso Equifax (2017) – Exemplo de má conduta ética**
+
+O que aconteceu: A Equifax, uma das maiores agências de crédito dos EUA, sofreu uma violação que expôs dados pessoais de 147 milhões de pessoas (números de CPF/SSN, datas de nascimento, endereços, etc.).
+Onde falhou:
+A empresa demorou meses para revelar o incidente ao público.
+Alguns executivos venderam ações antes de o caso ser divulgado (aparência de uso de informação privilegiada).
+A vulnerabilidade explorada era conhecida e já havia atualização de segurança disponível, mas não foi aplicada.
+Aspecto ético: Agiram de forma não ética ao priorizar imagem e ganhos financeiros em vez de proteger os consumidores.
+
+**🔹 Caso Microsoft Exchange (2021) – Exemplo de boa conduta ética**
+
+O que aconteceu: Vulnerabilidades críticas no Microsoft Exchange Server foram exploradas por hackers, afetando milhares de organizações.
+Onde acertou:
+A Microsoft reconheceu rapidamente a gravidade do problema.
+Lançou patches de emergência.
+Publicou guias e ferramentas gratuitas para ajudar empresas a se protegerem.
+Aspecto ético: Agiram de forma ética e transparente, priorizando a segurança dos usuários e não apenas o prejuízo de imagem.
+
+**👉 Resumindo:**
+
+**Equifax** mostrou como a omissão e o interesse próprio podem ser antiéticos em segurança cibernética. <br>
+**Microsoft** mostrou como transparência e resposta rápida refletem responsabilidade ética.
+
 
