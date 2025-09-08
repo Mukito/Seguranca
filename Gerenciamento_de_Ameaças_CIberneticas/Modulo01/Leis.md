@@ -150,6 +150,5 @@ Você fez uma apresentação completa e informou a equipe de RH da @Apollo sobre
  * Embora não sejam um requisito legal, as **políticas de privacidade** são uma boa maneira de as empresas demonstrarem conformidade com a lei.
  * Uma **avaliação de impacto da privacidade (PIA)** garante que as informações de identificação pessoal (PII) sejam tratadas corretamente em toda uma empresa.
 
-# Laboratório - Crie seu código pessoal de conduta ética
 
 
