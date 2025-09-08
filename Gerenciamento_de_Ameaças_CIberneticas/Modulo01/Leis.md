@@ -141,4 +141,15 @@ O Guru solicitou que você informe a equipe de RH da @Apollo sobre as principais
 
 Você está preparando uma breve apresentação. Você pode fazer corresponder cada uma das descrições à política ou à lei correta?
 
+## Explicações sobre leis de segurança digital
+
+Você fez uma apresentação completa e informou a equipe de RH da @Apollo sobre suas obrigações e responsabilidades de privacidade e proteção de dados.
+
+ * De acordo com a Lei de Privacidade e **Registros da Educação Familiar (FERPA)**, os registros educacionais de alunos com menos de 18 anos não podem ser compartilhados com uma empresa terceirizada sem o consentimento dos pais.
+ * O **Children's Online Privacy Protection Act (COPPA)** aplica-se a sites ou serviços on-line operados para fins comerciais e afirma que o consentimento dos pais precisa ser obtido antes de coletar e usar informações pessoais de     crianças menores de 13 anos.
+ * Embora não sejam um requisito legal, as **políticas de privacidade** são uma boa maneira de as empresas demonstrarem conformidade com a lei.
+ * Uma **avaliação de impacto da privacidade (PIA)** garante que as informações de identificação pessoal (PII) sejam tratadas corretamente em toda uma empresa.
+
+# Laboratório - Crie seu código pessoal de conduta ética
+
 
