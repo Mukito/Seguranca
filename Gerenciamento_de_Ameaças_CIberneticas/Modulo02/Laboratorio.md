@@ -50,3 +50,20 @@ Internet  192.168.99.10     -     43  0090.2B03.46D1  ARPA   GigabitEthernet0/0/
 
 ----------------------------------------
 
+Diagnosticos em salar com varias conecções tem que ser detalhadamente documentadas
+
+| Device | IPv4 Address | Default Gateway |
+|--------|--------------|-----------------|
+| 1-1 | 192.168.10.3 | 192.168.10.1 |
+| 1-2 | 192.168.10.2 | 192.168.10.1 |
+| 1-3 | 192.168.20.3 | 192.168.20.1 |
+| 1-4 | 192.168.20.2 | 192.168.20.1 |
+| FL-1P | 192.168.50.4 | 192.168.50.1 |
+| HQ-Laptop-1 | 192.168.50.3 | 192.168.50.1 |
+
+
+--------------------------------------------------------------------------------------
+
+tracert (ip) // 2 roteadores e um DNS no diagnostico 
+
+Gateway Padrao 10.0.0.49
