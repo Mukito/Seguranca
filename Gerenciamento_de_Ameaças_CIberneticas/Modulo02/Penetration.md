@@ -79,3 +79,37 @@ A segurança física é importante para evitar a entrada de sniffers na rede int
   * Usar o Wireshark para capturar o tráfego do navegador da Web.
   * Usar o Wireshark para capturar o tráfego Telnet.
   * Usar o Wireshark para capturar o tráfego SSH.
+
+  * -------------------------------------------------------------------------------------------+
+    
+
+## Usar o Wireshark para capturar o tráfego do navegador da Web.
+Usar o Wireshark para capturar o tráfego Telnet.
+Usar o Wireshark para capturar o tráfego SSH.
+
+### Avaliações de Segurança
+
+Um scanner de vulnerabilidades é utilizado para avaliar computadores, sistemas, redes ou aplicações em busca de pontos fracos. Entre os mais usados no mercado estão: Nessus, Retina, Core Impact e GFI LanGuard.
+
+Esses scanners podem ser de rede, de aplicação ou de web. Em alguns casos, realizam varreduras invasivas que tentam explorar vulnerabilidades e até bloquear o alvo.
+Nas verificações credenciais, nomes de usuário e senhas autorizados fornecem acesso ao sistema, permitindo ao scanner coletar informações mais detalhadas.
+
+Ferramentas de linha de comando que também podem auxiliar na avaliação de vulnerabilidades incluem:
+ipconfig, ping, arp, tracert, nslookup, netstat, nbtstat, nmap, netcat e hping.
+
+Já os sistemas SIEM coletam e agregam dados de log vindos de diversas fontes, como dispositivos de segurança, servidores, aplicações e elementos da rede.
+Além disso, ferramentas SOAR possibilitam que empresas automatizem a coleta de informações sobre ameaças, permitindo responder a eventos de menor impacto sem necessidade de intervenção humana.
+
+
+### Técnicas de teste de segurança de rede
+
+A segurança das operações se preocupa com as práticas diárias necessárias para primeiro implantar e depois manter um sistema seguro. A segurança das operações começa com o processo de planejamento e implementação de uma rede. Normalmente, os testes de segurança da rede são conduzidos durante os estágios de implementação e operacional, após o sistema ter sido desenvolvido, instalado e integrado. Ele é executado em uma rede para garantir que todas as implementações de segurança estejam operando conforme o esperado. Um ST&E é um exame das medidas de proteção que são colocadas em uma rede operacional. Os tipos de testes de rede incluem: penetração, varredura de rede, varredura de vulnerabilidade, quebra de senha, revisão de log, verificadores de integridade e detecção de vírus.
+
+### Ferramentas de teste de segurança de rede
+
+As ferramentas de software que podem ser usadas para realizar testes de rede incluem: Nmap / Zenmap, SuperScan, SIEM, GFI LANguard, Tripwire, Nessus, L0phtCrack e Metasploit. O Nmap oferece varredura e varredura de porta TCP e UDP clássica, varreduras e varreduras de porta Stealth TCP e UDP e ID de sistema operacional remoto. SuperScan é uma ferramenta de digitalização de portas do Microsoft Windows. Ele é executado na maioria das versões do Windows e requer privilégios de administrador. Os SIEMs fornecem correlação, agregação, análise forense e retenção.
+
+
+### Teste de penetração
+
+O teste de penetração (pen testing) é um método de testar áreas de fraquezas em sistemas usando várias técnicas maliciosas. Um teste de penetração simula os métodos que um invasor usaria para obter acesso não autorizado a uma rede e comprometer os sistemas, além de permitir que uma empresa entenda como toleraria um ataque real. Há quatro fases que compõem um teste de penetração: 1 Planejamento, 2. Descoberta, 3. Ataque, e 4. Relatórios. Algumas empresas criam equipes concorrentes para realizar exercícios de penetração mais longos do que um teste de penetração. Normalmente, há um time vermelho (tentando atacar o sistema) e um time azul (tentando defender o sistema). Os packet analyzers (ou analisadores de pacotes) interceptam e registram o tráfego de rede. Farejar não é usado apenas para fins mal-intencionados. Os administradores de rede também podem usar sniffers para analisar o tráfego de rede, identificar problemas de largura de banda e solucionar outros problemas de rede.
