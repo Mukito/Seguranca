@@ -39,5 +39,8 @@ e ataques de ***spear phishing***, que são direcionados a indivíduos específi
 O elo mais fraco da segurança - Uma empesa pode comprar os melhores equipamentos e software de segurança, 
 mas ainda pode existir vulnerabilidade pois o elo mais fraco da segurança cibernética é o **fator humano**
 
-  **CASO DE FRANK ABAGNALE**
+  **CASO DE FRANK ABAGNALE** - Prenda-me se for capaz
+
+  ## Phishing
+  É uma forma comum de Engenharia em que os atacantes enviar mensagens falsas, geralmente por e-mail (imitações legitimas)
   
