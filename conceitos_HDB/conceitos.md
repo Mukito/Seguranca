@@ -15,33 +15,15 @@ A norma utiliza a metodologia PDCA (Plan-Do-Check-Act) para garantir que a segur
 
 ### A Tríade CID
 Todas as políticas e controles da ISO 27001 são desenhados para proteger três pilares fundamentais da informação:
- * Confidencialidade: Garantir que a informação seja acessível apenas por pessoas explicitamente autorizadas.
- * Integridade: Salvaguardar a exatidão e a completude da informação, evitando modificações não autorizadas ou indevidas.
- * Disponibilidade: Garantir que os usuários autorizados tenham acesso à informação sempre que necessário.
+ * **Confidencialidade**: Garantir que a informação seja acessível apenas por pessoas explicitamente autorizadas.
+ * **Integridade**: Salvaguardar a exatidão e a completude da informação, evitando modificações não autorizadas ou indevidas.
+ * **Disponibilidade**: Garantir que os usuários autorizados tenham acesso à informação sempre que necessário.
 
 ### Estrutura da Norma
 O documento da ISO 27001 é dividido em duas partes principais:
 
 #### 1. Cláusulas 4 a 10 (Requisitos do Sistema de Gestão)
 São os requisitos obrigatórios para que uma organização possa ser certificada. Eles formam a estrutura de governança:
- * **Cláusula 4**: Contexto da organização (Entendimento das questões internas/externas e definição do escopo do SGSI)
- * **Cláusula 5**: Liderança (Comprometimento da alta direção e definição da Política de Segurança)
- * **Cláusula 6**: Planejamento (Processo de identificação, análise e tratamento de riscos)
- * A Tríade CID
-Todas as políticas e controles da ISO 27001 são desenhados para proteger três pilares fundamentais da informação:
-
-Confidencialidade: Garantir que a informação seja acessível apenas por pessoas explicitamente autorizadas.
-
-Integridade: Salvaguardar a exatidão e a completude da informação, evitando modificações não autorizadas ou indevidas.
-
-Disponibilidade: Garantir que os usuários autorizados tenham acesso à informação sempre que necessário.
-
-Estrutura da Norma
-O documento da ISO 27001 é dividido em duas partes principais:
-
-1. Cláusulas 4 a 10 (Requisitos do Sistema de Gestão)
-São os requisitos obrigatórios para que uma organização possa ser certificada. Eles formam a estrutura de governança:
-
  * **Cláusula 4**: Contexto da organização (Entendimento das questões internas/externas e definição do escopo do SGSI)
  * **Cláusula 5**: Liderança (Comprometimento da alta direção e definição da Política de Segurança)
  * **Cláusula 6**: Planejamento (Processo de identificação, análise e tratamento de riscos)
@@ -53,7 +35,8 @@ São os requisitos obrigatórios para que uma organização possa ser certificad
  * **Cláusula 9**: Avaliação de desempenho (Auditorias internas e análise crítica pela direção)
  * **Cláusula 10**: Melhoria (Tratamento de não-conformidades e ações corretivas)  
 
-2. Anexo A (Os Controles de Segurança)Na versão atualizada (ISO/IEC 27001:2022), o Anexo A foi reestruturado e conta com 93 controles divididos em 4 grandes temas (simplificados em relação aos 114 controles da versão anterior de 2013):Categoria do ControleFoco PrincipalExemplos PráticosA.5 Controles OrganizacionaisPolíticas, governança e gestão de ativosPolítica de controle de acesso, inventário de ativos, responsabilidades de gestão.A.6 Controles de PessoasSegurança ligada aos recursos humanosProcesso de contratação (background check), treinamentos de conscientização, termos de confidencialidade.A.7 Controles FísicosProteção de instalações, perímetros e equipamentosBarreiras físicas de entrada, segurança de escritórios, política de mesa limpa e tela limpa.A.8 Controles TecnológicosSegurança digital e configurações de sistemasCriptografia, proteção contra malware, gestão de vulnerabilidades técnicas, logs e monitoramento.
+### 2. Anexo A (Os Controles de Segurança)
+Na versão atualizada (ISO/IEC 27001:2022), o Anexo A foi reestruturado e conta com 93 controles divididos em 4 grandes temas (simplificados em relação aos 114 controles da versão anterior de 2013):Categoria do ControleFoco PrincipalExemplos PráticosA.5 Controles OrganizacionaisPolíticas, governança e gestão de ativosPolítica de controle de acesso, inventário de ativos, responsabilidades de gestão.A.6 Controles de PessoasSegurança ligada aos recursos humanosProcesso de contratação (background check), treinamentos de conscientização, termos de confidencialidade.A.7 Controles FísicosProteção de instalações, perímetros e equipamentosBarreiras físicas de entrada, segurança de escritórios, política de mesa limpa e tela limpa.A.8 Controles TecnológicosSegurança digital e configurações de sistemasCriptografia, proteção contra malware, gestão de vulnerabilidades técnicas, logs e monitoramento.
 
 
 | Categoria do Controle | Foco Principal | Exemplos Práticos| 
