@@ -36,8 +36,7 @@ São os requisitos obrigatórios para que uma organização possa ser certificad
  * **Cláusula 10**: Melhoria (Tratamento de não-conformidades e ações corretivas)  
 
 ### 2. Anexo A (Os Controles de Segurança)
-Na versão atualizada (ISO/IEC 27001:2022), o Anexo A foi reestruturado e conta com 93 controles divididos em 4 grandes temas (simplificados em relação aos 114 controles da versão anterior de 2013):Categoria do ControleFoco PrincipalExemplos PráticosA.5 Controles OrganizacionaisPolíticas, governança e gestão de ativosPolítica de controle de acesso, inventário de ativos, responsabilidades de gestão.A.6 Controles de PessoasSegurança ligada aos recursos humanosProcesso de contratação (background check), treinamentos de conscientização, termos de confidencialidade.A.7 Controles FísicosProteção de instalações, perímetros e equipamentosBarreiras físicas de entrada, segurança de escritórios, política de mesa limpa e tela limpa.A.8 Controles TecnológicosSegurança digital e configurações de sistemasCriptografia, proteção contra malware, gestão de vulnerabilidades técnicas, logs e monitoramento.
-
+Na versão atualizada (ISO/IEC 27001:2022), o Anexo A foi reestruturado e conta com 93 controles divididos em 4 grandes temas (simplificados em relação aos 114 controles da versão anterior de 2013)
 
 | Categoria do Controle | Foco Principal | Exemplos Práticos| 
 |----------------------|----------------|------------------|
