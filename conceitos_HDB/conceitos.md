@@ -43,4 +43,14 @@ mas ainda pode existir vulnerabilidade pois o elo mais fraco da segurança ciber
 
   ## Phishing
   É uma forma comum de Engenharia em que os atacantes enviar mensagens falsas, geralmente por e-mail (imitações legitimas)
+  buscam obter informações pessoais, como senhas ou dados bancários.
+
+
+  ## Pretexting
+  É uma forma de Engenharia em que um atacante inventa uma simulação falsa para obter informações confidenciais. 
+  Exemplo: alguém se passa por um funcionario de TI para obter informações de login (**Querer ajudar e cooperar**)
+
+  ## Tailgating ou "Carona"
+  É uma tática que envolve uma pessoa **não autorizada** seguindo de perto uma pessoa **autorizada** para entrar em um local restrito.
+  
   
