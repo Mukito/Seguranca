@@ -45,6 +45,12 @@ Na versão atualizada (ISO/IEC 27001:2022), o Anexo A foi reestruturado e conta 
 | A.7 Controles Físicos | Proteção de instalações, perímetros e equipamentos | Barreiras físicas de entrada, segurança de escritórios, política de mesa limpa e tela limpa. | 
 | A.8 Controles Tecnológicos | Segurança digital e configurações de sistemas | Criptografia, proteção contra malware, gestão de vulnerabilidades técnicas, logs e monitoramento. | 
 
+### Documentos Essenciais na Implementação
+Para formalizar o SGSI e pleitear uma certificação, a organização precisa obrigatoriamente gerar alguns artefatos:
+ * **Metodologia de Avaliação de Riscos**: O critério formal para identificar e mensurar o impacto e a probabilidade dos riscos.
+ * **Declaração de Aplicabilidade (SoA - Statement of Applicability)**: Um documento crucial que lista quais dos 93 controles do Anexo A são aplicáveis à realidade da organização e como estão implementados.
+ * **Plano de Tratamento de Riscos (RTP - Risk Treatment Plan)**: O plano operacional detalhando como os riscos identificados serão mitigados, aceitos, transferidos ou evitados.
+
 
 ## vulnerabilidades
 ### O que é?
