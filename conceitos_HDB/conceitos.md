@@ -35,3 +35,9 @@ Acesso fisico a dispositivos, equipamentos ou instalações - Prédios salas ond
 É uma tática utilizada para manipular pessoas, visando à obtenção de informações confidenciais, 
 o que pode incluir técnicas de ***phishing***, na qual os usuários são enganados para fornecer senhas ou dados pessoais, 
 e ataques de ***spear phishing***, que são direcionados a indivíduos específicos, frequentemente utilizando informações pessoais obtidas online.
+
+O elo mais fraco da segurança - Uma empesa pode comprar os melhores equipamentos e software de segurança, 
+mas ainda pode existir vulnerabilidade pois o elo mais fraco da segurança cibernética é o **fator humano**
+
+  **CASO DE FRANK ABAGNALE**
+  
