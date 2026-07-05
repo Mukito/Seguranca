@@ -44,4 +44,11 @@ Soluções projetadas para detectar e responder a incidentes de seguranca
 
  * **Coleta de Dados** - Recolhe dados de segurança 
  * **Normalização e correlação** - Organiza dados de maneira consistente e identifica padroes ou ameaças
- * **Alerta em Tempo real**
+ * **Alerta em Tempo real** - Gera alertas imediatos para suspeitas
+ * **Armazenamento Centralizado** - Mantém dados centralizados
+ * **Analise de comportamento** - Identifica desvios de padrões normais de atividades
+ * **Geração de Ralatórios** - Cria relatorio personalizados para conformidade e insights de segurança
+
+
+
+
