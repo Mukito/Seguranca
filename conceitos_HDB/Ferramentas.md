@@ -49,6 +49,17 @@ Soluções projetadas para detectar e responder a incidentes de seguranca
  * **Analise de comportamento** - Identifica desvios de padrões normais de atividades
  * **Geração de Ralatórios** - Cria relatorio personalizados para conformidade e insights de segurança
 
+## SOAR (Security Orchestration Automation and Response)
+Orquestração, automação e respostas a incidentes de segurança
+Visa Melhorar a eficiência operacional
+
+ * **Orquestração** - Integra ferramentas diferente de sistema
+ * **Integração de ferramentas** - Conexão e colaboração com diversas ferramentas de segurança
+ * **Resposta a Incidentes** - Açoes e respostas a incidentes para contenção de ameaças
+ * **Análise de dados e contexto** - Analiação de dados
+ * **Priorização de Incidenets** - Classifica Incidentes para focar nas ameaças mais criticas primeiro
+ * **Gerenciamento de conhecimento** - Armazena e compartilha informações relevantes sonre ameaças
+
 
 
 
